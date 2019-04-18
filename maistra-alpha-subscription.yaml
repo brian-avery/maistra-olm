@@ -2,9 +2,8 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: Subscription
 metadata:
   name: maistra
-  namespace: myproject
+  namespace: istio-operator
 spec:
   channel: alpha
   name: maistra
   source: rh-operators
-  installPlanApproval: Manual
